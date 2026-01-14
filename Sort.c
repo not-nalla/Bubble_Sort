@@ -1,5 +1,6 @@
-// //--Bubble Sort for Numbers--
+//--Bubble Sort for Numbers--
 #include<stdio.h>
+
 int main(){
     int n,a[100];
     int temp;
@@ -20,10 +21,11 @@ int main(){
     //---Bubble Sort---
     for(int i=0;i<n-1;i++){
         for(int j=0;j<n-i-1;j++){
-            if(a[i]<a[j]){
-                temp=a[i];
-                a[i]=a[j];
-                a[j]=temp;
+            if(a[j]>a[j+1]){
+
+                temp=a[j];
+                a[j]=a[j+1];
+                a[j+1]=temp;
             }
         }
     }
@@ -60,7 +62,7 @@ int main(){
         for(int j=0;j<n-i-1;j++){
             if(strcmp(a[j],a[j+1]) > 0){
                 strcpy(temp,a[j]);
-                strcpy(a[i],a[j+1]);
+                strcpy(a[j],a[j+1]);
                 strcpy(a[j+1],temp);
             }
         }
