@@ -14,7 +14,9 @@ This program is designed for learning and understanding the Bubble Sort algorith
 --Output--
 
 ~For Numbers
+
 <img width="462" height="473" alt="image" src="https://github.com/user-attachments/assets/3b8f227d-09e9-4167-a47c-cebc853222b2" />
 
 ~for String
+
 <img width="444" height="473" alt="image" src="https://github.com/user-attachments/assets/2fa797e8-8b4c-4302-9723-e1a4555dad02" />
